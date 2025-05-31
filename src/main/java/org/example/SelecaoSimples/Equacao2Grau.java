@@ -1,4 +1,4 @@
-package org.example;
+package org.example.SelecaoSimples;
 
 import javax.crypto.spec.DESedeKeySpec;
 import java.util.Scanner;

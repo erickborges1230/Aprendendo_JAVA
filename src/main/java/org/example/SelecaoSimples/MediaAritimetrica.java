@@ -1,4 +1,4 @@
-package org.example;
+package org.example.SelecaoSimples;
 
 import java.util.Scanner;
 
@@ -17,7 +17,11 @@ public class MediaAritimetrica {
         System.out.println("Favor informar a nota 4");
         nota4 = teclado.nextDouble();
         media = (nota1+nota2+nota3+nota4)/numero_avaliacoes;
-        System.out.println("A media aritimetrica é de "+media);
+
+
+        System.out.println("A media aritimetrica foi de "+media);
+        if (media < 5 )
+            System.out.println("Aluno Reprovado!");
 
     }
 }
